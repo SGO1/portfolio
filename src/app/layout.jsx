@@ -11,7 +11,7 @@ const roboto = Roboto({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} dark:bg-black bg-zinc-100 flex flex-row justify-center`}>{children}</body>
+      <body className={`${roboto.className} dark:bg-black bg-zinc-100 flex flex-row`}>{children}</body>
     </html>
   );
 }
