@@ -62,7 +62,7 @@ export default function Projects() {
           ].map((project, index) => (
               <section key={index} className="flex flex-col py-8 w-full lg:w-1/2 xl:w-1/3">
                 <img
-                  src="/svg.svg"
+                  src="./svg.svg"
                   alt=""
                   className="w-8 h-8 border-2 rounded-full border-zinc-300 dark:border-zinc-600 outline-offset-2"
                 />
@@ -74,7 +74,7 @@ export default function Projects() {
                   href={project.url}
                   className="inline-flex items-center w-fit text-lg text-zinc-500 dark:text-zinc-400/70 my-3  hover:underline border-b-2 border-solid border-transparent hover:text-black hover:border-black dark:hover:text-white dark:hover:border-white"
                 >
-                  <img src="/link.svg" alt="View the Project" className="p-px" />
+                  <img src="./link.svg" alt="View the Project" className="p-px" />
                   {project.url}
                 </a>
               </section>

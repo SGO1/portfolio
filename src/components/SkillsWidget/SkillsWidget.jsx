@@ -19,7 +19,7 @@ const SkillsWidget = ({ title, content, skills }) => {
           <li key={index} data-testid={`skillsWidgetItem${index}`}>
             <div className="flex flex-row gap-x-2 items-center">
               <img
-                src={skill.icon}
+                src={`.${skill.icon}`}
                 alt={skill.name}
                 data-testid={`skillsWidgetItemLogo${index}`}
                 className="w-14 h-14 dark:border-2 border-solid rounded-full dark:border-zinc-700/40 dark:bg-zinc-800"

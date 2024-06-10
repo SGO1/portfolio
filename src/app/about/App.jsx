@@ -4,7 +4,7 @@ import ContactMe from "@/components/ContactMe/ContactMe";
 const App = ({ paragraphs = [] }) => (
   <section className="flex flex-col xl:flex-row-reverse flex-wrap">
     <section className="w-full h-full flex-1 xl:pr-4 2xl:pl-10 ">
-      <img src="/me_big.png" alt="Me" className="w-full h-full" />
+      <img src="./me_big.png" alt="Me" className="w-full h-full" />
       <section className="invisible xl:visible h-0 xl:h-auto">
         <ContactMe />
       </section>

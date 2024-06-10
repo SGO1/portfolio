@@ -19,7 +19,7 @@ const WorkWidget = ({ title, content, experiences }) => {
             <div className="flex flex-row gap-x-2 items-center">
               <img
                 data-testid={`workWidgetItemLogo${index}`}
-                src={/* /public */ `/${value.logo}.png`}
+                src={`./${value.logo}.png`}
                 alt={`${value.organization} Logo`}
                 className="w-10 h-10 rounded-full dark:bg-zinc-800 dark:border-zinc-700/40 border-solid border-2"
               />
