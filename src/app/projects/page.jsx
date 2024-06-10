@@ -74,7 +74,7 @@ export default function Projects() {
                   href={project.url}
                   className="inline-flex items-center w-fit text-lg text-zinc-500 dark:text-zinc-400/70 my-3  hover:underline border-b-2 border-solid border-transparent hover:text-black hover:border-black dark:hover:text-white dark:hover:border-white"
                 >
-                  <img src="./link.svg" alt="View the Project" className="p-px" />
+                  <img src="./Link.svg" alt="View the Project" className="p-px" />
                   {project.url}
                 </a>
               </section>
