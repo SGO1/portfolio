@@ -1,4 +1,3 @@
-import "./ArticleCard.css";
 import PropTypes from "prop-types";
 
 /* TODO:

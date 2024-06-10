@@ -1,4 +1,3 @@
-import "./WorkWidget.css";
 import PropTypes from "prop-types";
 
 const WorkWidget = ({ title, content, experiences }) => {

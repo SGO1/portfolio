@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+
 function Navbar({ options }) {
   const content = options
     ? options.map((page, index) => {

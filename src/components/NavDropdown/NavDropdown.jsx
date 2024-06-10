@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-// import "./NavDropdown.module.css";
 import PropTypes from "prop-types";
 
 const Dropdown = ({ goHome, goAbout, goProjects, goUses }) => {

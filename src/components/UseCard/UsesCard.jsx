@@ -1,5 +1,3 @@
-/* DON'T CHANGE ME */
-import "./UsesCard.css";
 import PropTypes from "prop-types";
 
 const UsesCard = ({ title, content }) => {

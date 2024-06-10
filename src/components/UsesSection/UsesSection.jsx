@@ -1,4 +1,3 @@
-import "./UsesSection.css";
 import PropTypes from "prop-types";
 import UseCard from "../UseCard/UsesCard.jsx";
 

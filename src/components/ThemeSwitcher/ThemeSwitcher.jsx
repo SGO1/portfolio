@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import "./ThemeSwitcher.css";
 import PropTypes from "prop-types";
 
 const ThemeSwitcher = ({ darkClassName }) => {
