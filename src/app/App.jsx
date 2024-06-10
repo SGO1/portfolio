@@ -120,10 +120,10 @@ function App() {
       </main>
       <Footer
         links={[
-          { title: "Home", url: "/" },
-          { title: "About", url: "/about" },
-          { title: "Projects", url: "/projects" },
-          { title: "Uses", url: "/uses" },
+          { title: "Home", url: "./" },
+          { title: "About", url: "./about" },
+          { title: "Projects", url: "./projects" },
+          { title: "Uses", url: "./uses" },
         ]}
       />
     </div>

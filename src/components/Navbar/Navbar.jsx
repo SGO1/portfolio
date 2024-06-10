@@ -12,7 +12,7 @@ function Navbar({ options }) {
                   ? "text-purple-500 dark:text-purple-500 underline decoration-1 hover:decoration-2"
                   : "text-zinc-800 dark:text-zinc-300 "
               } text-lg mx-4 underline-offset-4 hover:underline hover:decoration-purple-500 hover:decoration-2 active:text-purple-300 active:no-underline dark:hover:decoration-purple-400 dark:active:text-purple-300`}
-              href={page.path}
+              href={`.${page.path}`}
             >
               {page.label}
             </a>

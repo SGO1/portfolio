@@ -12,16 +12,16 @@ const Header = ({ options }) => (
       <div className="xl:invisible xl:w-0">
         <NavDropdown
           goHome={() => {
-            document.location.href = "/";
+            document.location.href = "./";
           }}
           goAbout={() => {
-            document.location.href = "/about";
+            document.location.href = "./about";
           }}
           goProjects={() => {
-            document.location.href = "/projects";
+            document.location.href = "./projects";
           }}
           goUses={() => {
-            document.location.href = "/uses";
+            document.location.href = "./uses";
           }}
         />
       </div>
