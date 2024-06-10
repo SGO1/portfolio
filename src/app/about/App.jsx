@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import ContactMe from "@/components/ContactMe/ContactMe";
 
 const App = ({ paragraphs = [] }) => (
@@ -10,7 +11,7 @@ const App = ({ paragraphs = [] }) => (
     </section>
     <section className="flex-1 xl:pr-4 2xl:pr-10">
       <h1 className="flex-1 text-5xl xl:text-7xl font-bold text-zinc-800 dark:text-zinc-100 w-full">
-        I'm Spencer. I live in Salt Lake, where I develop the future
+        I&apos;m Spencer. I live in Salt Lake, where I develop the future
       </h1>
       {paragraphs.map((paragraph, index) => (
         <p key={index} className="text-lg py-8 text-zinc-600 dark:text-zinc-400">

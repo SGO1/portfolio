@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 
@@ -19,11 +20,11 @@ export default function Projects() {
       />
       <main className="flex flex-col px-24">
         <section className="flex-1 xl:pr-4 2xl:pr-10 xl:w-9/12">
-          <h1 className="text-zinc-800 dark:text-zinc-100 text-3xl text-5xl xl:text-7xl py-8">
-            Things I’ve made trying to put my dent in the universe.
+          <h1 className="text-zinc-800 dark:text-zinc-100 text-5xl xl:text-7xl py-8">
+            Things I&apos;ve made trying to put my dent in the universe.
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400 text-lg">
-            Most projects here are not yet public, or open-source. Programming Languages are specified in each project's description.
+            Most projects here are not yet public, or open-source. Programming Languages are specified in each project&apos;s description.
           </p>
         </section>
         <section className="flex flex-row py-10 flex-wrap">

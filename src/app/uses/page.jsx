@@ -93,7 +93,7 @@ export default function Uses() {
       />
       <main className="flex flex-col px-24">
         <section className="flex-1 xl:pr-4 2xl:pr-10 xl:w-9/12">
-          <h1 className="text-zinc-800 dark:text-zinc-100 text-3xl text-5xl xl:text-7xl py-8">
+          <h1 className="text-zinc-800 dark:text-zinc-100 text-5xl xl:text-7xl py-8">
             Software I use, gadgets I love, and other things I recommend.
           </h1>
           <p className="text-zinc-600 dark:text-zinc-400 text-lg">
